@@ -1,0 +1,7 @@
+﻿file,true_label,pred_label,score,correct
+dataset/test/bean_rust/bean_rust_test.15.jpg,bean_rust,angular_leaf_spot,0.7557480931282043,False
+dataset/test/bean_rust/bean_rust_test.28.jpg,bean_rust,angular_leaf_spot,0.852777898311615,False
+dataset/test/bean_rust/bean_rust_test.3.jpg,bean_rust,angular_leaf_spot,0.5203802585601807,False
+dataset/test/bean_rust/bean_rust_test.31.jpg,bean_rust,angular_leaf_spot,0.5661606788635254,False
+dataset/test/healthy/healthy_test.10.jpg,healthy,bean_rust,0.898751437664032,False
+dataset/test/healthy/healthy_test.27.jpg,healthy,bean_rust,0.6630308628082275,False
