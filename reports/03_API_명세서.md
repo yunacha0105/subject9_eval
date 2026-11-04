@@ -7,7 +7,7 @@
 | API-03 | POST   | `/api/async/classify/`      | `multipart/form-data` / `image` | 202     | `job_id`, `status`, `check_url`                        | 400, 413, 503      |
 | API-04 | GET    | `/api/async/jobs/{job_id}/` | 정수형 `job_id`                    | 200     | `status`, `top1`, `all`, `error_message` 등             | 404                |
 | WEB-01 | GET    | `/vision/sync/`             | 없음                              | 200     | HTML                                                   | —                  |
-| WEB-02 | GET    | `/visions/async/`           | 없음                              | 200     | HTML                                                   | —                  |
+| WEB-02 | GET    | `/vision/async/`           | 없음                              | 200     | HTML                                                   | —                  |
 
 **API-02: 동기 분류 상세**
 
@@ -110,9 +110,9 @@
 | 검증 ID | 테스트 입력 | 실제 상태코드 | 첨부 증빙 |
 |---|---|---:|---|
 | API-01-T01 | GET `/health` | 200 | `evidence/health.json` |
-| API-02-T01 | `healthy_test.6.jpg` | 200 | `evidence/sync_result.png` |
+| API-02-T01 | `healthy_test.6.jpg` | 200 | `evidence/sync_ui.png` |
 | API-03-T01 | `healthy_test.6.jpg` | 202 | `evidence/worker_web_logs.txt` |
-| API-04-T01 | 접수된 `job_id=13` | 200 | `evidence/async_result.png` |
+| API-04-T01 | 접수된 `job_id=13` | 200 | `evidence/async_ui.png` |
 | API-02-T02 | 잘못된 이미지 파일 | 400 | `evidence/real_error_responses.json` |
 | API-02-T03 | 5MB 초과 파일 | 413 | `evidence/real_error_responses.json` |
 | API-04-T02 | 없는 `job_id=99999999` | 404 | `evidence/real_error_responses.json` |
