@@ -8,3 +8,5 @@ artifacts/*
 media/jobs/*
 !media/jobs/.gitkeep
 *.db
+beans_dataset.zip
+beans_models.zip
