@@ -1,0 +1,28 @@
+{
+  "total": 128,
+  "correct": 92,
+  "accuracy": 0.71875,
+  "labels": [
+    "angular_leaf_spot",
+    "bean_rust",
+    "healthy"
+  ],
+  "confusion_matrix_rows_gt_cols_pred": [
+    [
+      30,
+      7,
+      6
+    ],
+    [
+      13,
+      23,
+      7
+    ],
+    [
+      0,
+      3,
+      39
+    ]
+  ],
+  "note": "Test set was not used in training/model choice; report only as final evaluation."
+}

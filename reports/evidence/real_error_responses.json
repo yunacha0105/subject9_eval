@@ -1,0 +1,23 @@
+{
+  "invalid_image_400": {
+    "http": 400,
+    "response": {
+      "detail": "올바른 이미지 파일이 아닙니다."
+    },
+    "elapsed_ms": 31.84
+  },
+  "oversize_413": {
+    "http": 413,
+    "response": {
+      "detail": "5MB 이하 파일만 허용합니다."
+    },
+    "elapsed_ms": 9.241
+  },
+  "missing_job_404": {
+    "http": 404,
+    "response": {
+      "detail": "해당 작업이 없습니다."
+    },
+    "elapsed_ms": 2.169
+  }
+}

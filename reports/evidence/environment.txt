@@ -1,0 +1,28 @@
+=== OS ===
+PRETTY_NAME="Ubuntu 26.04.1 LTS"
+=== Python ===
+Python 3.14.4
+=== CPU ===
+CPU(s):                                  20
+On-line CPU(s) list:                     0-19
+Model name:                              12th Gen Intel(R) Core(TM) i7-12700
+NUMA node0 CPU(s):                       0-19
+=== RAM ===
+               total        used        free      shared  buff/cache   available
+Mem:            15Gi       3.3Gi       8.3Gi        64Mi       4.2Gi        12Gi
+Swap:          4.0Gi          0B       4.0Gi
+=== GPU ===
+name, memory.total [MiB], driver_version
+NVIDIA GeForce RTX 3060, 12288 MiB, 610.88
+=== PyTorch ===
+Torch: 2.15.0+cu132
+CUDA available: True
+=== Docker ===
+Docker version 29.9.2, build a82e528
+Docker Compose version v5.6.1
+=== Containers ===
+NAME                          IMAGE                     COMMAND                  SERVICE    CREATED       STATUS                    PORTS
+fastapi_resnet18-postgres-1   postgres:17-alpine        "docker-entrypoint.s…"   postgres   2 hours ago   Up 51 minutes (healthy)   127.0.0.1:5432->5432/tcp
+fastapi_resnet18-redis-1      redis:7.4-alpine          "docker-entrypoint.s…"   redis      2 hours ago   Up 51 minutes (healthy)   127.0.0.1:6379->6379/tcp
+fastapi_resnet18-web-1        fastapi_resnet18-web      "uvicorn main:app --…"   web        2 hours ago   Up 51 minutes (healthy)   127.0.0.1:8000->8000/tcp
+fastapi_resnet18-worker-1     fastapi_resnet18-worker   "celery -A ai.celery…"   worker     2 hours ago   Up 51 minutes             8000/tcp

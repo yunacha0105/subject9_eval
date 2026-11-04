@@ -1,0 +1,160 @@
+worker-1  | [tasks]
+worker-1  |   . ai.classify_job
+worker-1  | 
+worker-1  | [2026-11-04 01:05:59,722: INFO/MainProcess] Connected to redis://:**@redis:6379/2
+worker-1  | [2026-11-04 01:05:59,723: INFO/MainProcess] mingle: searching for neighbors
+worker-1  | [2026-11-04 01:06:00,732: INFO/MainProcess] mingle: all alone
+worker-1  | [2026-11-04 01:06:00,741: INFO/MainProcess] celery@f1480a5f9262 ready.
+worker-1  | 
+worker-1  | worker: Warm shutdown (MainProcess)
+worker-1  | /usr/local/lib/python3.11/site-packages/celery/platforms.py:841: SecurityWarning: You're running the worker with superuser privileges: this is
+worker-1  | absolutely not recommended!
+worker-1  | 
+worker-1  | Please specify a different user using the --uid option.
+worker-1  | 
+worker-1  | User information: uid=0 euid=0 gid=0 egid=0
+worker-1  | 
+worker-1  |   warnings.warn(SecurityWarning(ROOT_DISCOURAGED.format(
+worker-1  |  
+worker-1  |  -------------- celery@f1480a5f9262 v5.6.3 (recovery)
+worker-1  | --- ***** ----- 
+worker-1  | -- ******* ---- Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.41 2026-11-04 01:54:31
+worker-1  | - *** --- * --- 
+worker-1  | - ** ---------- [config]
+worker-1  | - ** ---------- .> app:         vision_ai:0x76c8e2235990
+worker-1  | - ** ---------- .> transport:   redis://:**@redis:6379/2
+worker-1  | - ** ---------- .> results:     redis://redis:6379/3
+worker-1  | - *** --- * --- .> concurrency: 1 (solo)
+worker-1  | -- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+worker-1  | --- ***** ----- 
+worker-1  |  -------------- [queues]
+worker-1  |                 .> celery           exchange=celery(direct) key=celery
+worker-1  |                 
+worker-1  | 
+worker-1  | [tasks]
+worker-1  |   . ai.classify_job
+worker-1  | 
+worker-1  | [2026-11-04 01:54:31,039: INFO/MainProcess] Connected to redis://:**@redis:6379/2
+worker-1  | [2026-11-04 01:54:31,040: INFO/MainProcess] mingle: searching for neighbors
+worker-1  | [2026-11-04 01:54:32,047: INFO/MainProcess] mingle: all alone
+worker-1  | [2026-11-04 01:54:32,054: INFO/MainProcess] celery@f1480a5f9262 ready.
+worker-1  | [2026-11-04 01:57:41,958: INFO/MainProcess] Task ai.classify_job[688b4891-db48-453f-ace1-a45bdd5bbe61] received
+worker-1  | [2026-11-04 01:57:41,981: INFO/MainProcess] Task ai.classify_job[688b4891-db48-453f-ace1-a45bdd5bbe61] succeeded in 0.023013937000541773s: {'job_id': 2, 'status': 'done'}
+worker-1  | [2026-11-04 01:57:41,983: INFO/MainProcess] Task ai.classify_job[33aba8e8-3580-44d5-b6ba-1277a2e84713] received
+worker-1  | [2026-11-04 01:57:41,988: INFO/MainProcess] Task ai.classify_job[33aba8e8-3580-44d5-b6ba-1277a2e84713] succeeded in 0.005718903000342834s: {'job_id': 3, 'status': 'done'}
+worker-1  | [2026-11-04 01:57:41,989: INFO/MainProcess] Task ai.classify_job[a07ab29a-d222-4a4f-a5e6-5dc162349eb7] received
+worker-1  | [2026-11-04 01:57:41,995: INFO/MainProcess] Task ai.classify_job[a07ab29a-d222-4a4f-a5e6-5dc162349eb7] succeeded in 0.00582856199980597s: {'job_id': 4, 'status': 'done'}
+worker-1  | [2026-11-04 01:57:41,996: INFO/MainProcess] Task ai.classify_job[2013d09c-0215-4b0a-bb03-767eab161ce6] received
+worker-1  | [2026-11-04 01:57:42,002: INFO/MainProcess] Task ai.classify_job[2013d09c-0215-4b0a-bb03-767eab161ce6] succeeded in 0.005879383000319649s: {'job_id': 5, 'status': 'done'}
+worker-1  | [2026-11-04 01:57:42,010: INFO/MainProcess] Task ai.classify_job[11b51a0c-bacd-4299-ab61-d20aa0cc5060] received
+worker-1  | [2026-11-04 01:57:42,015: INFO/MainProcess] Task ai.classify_job[11b51a0c-bacd-4299-ab61-d20aa0cc5060] succeeded in 0.005540738000490819s: {'job_id': 6, 'status': 'done'}
+worker-1  | [2026-11-04 01:58:45,656: INFO/MainProcess] Task ai.classify_job[acae4140-3526-4004-9289-b8f4baa7b1bf] received
+worker-1  | [2026-11-04 01:58:45,661: INFO/MainProcess] Task ai.classify_job[acae4140-3526-4004-9289-b8f4baa7b1bf] succeeded in 0.00548220400014543s: {'job_id': 7, 'status': 'done'}
+worker-1  | [2026-11-04 01:58:45,678: INFO/MainProcess] Task ai.classify_job[31ff4b34-89b3-465b-baaa-4743efec1391] received
+worker-1  | [2026-11-04 01:58:45,683: INFO/MainProcess] Task ai.classify_job[31ff4b34-89b3-465b-baaa-4743efec1391] succeeded in 0.005168953000065812s: {'job_id': 8, 'status': 'done'}
+worker-1  | [2026-11-04 01:58:45,796: INFO/MainProcess] Task ai.classify_job[780567fa-68b8-4832-bc60-74766a984e1b] received
+worker-1  | [2026-11-04 01:58:45,802: INFO/MainProcess] Task ai.classify_job[780567fa-68b8-4832-bc60-74766a984e1b] succeeded in 0.00609497899949929s: {'job_id': 9, 'status': 'done'}
+worker-1  | [2026-11-04 01:58:45,918: INFO/MainProcess] Task ai.classify_job[c0c6f77c-40ac-4c6a-a921-4cd52d2fc139] received
+worker-1  | [2026-11-04 01:58:45,926: INFO/MainProcess] Task ai.classify_job[c0c6f77c-40ac-4c6a-a921-4cd52d2fc139] succeeded in 0.0072751520001475s: {'job_id': 10, 'status': 'done'}
+worker-1  | [2026-11-04 01:58:46,037: INFO/MainProcess] Task ai.classify_job[4990f5c9-66b8-421e-8c39-6ee1d9858e0c] received
+worker-1  | [2026-11-04 01:58:46,043: INFO/MainProcess] Task ai.classify_job[4990f5c9-66b8-421e-8c39-6ee1d9858e0c] succeeded in 0.005422096000074816s: {'job_id': 11, 'status': 'done'}
+worker-1  | [2026-11-04 02:02:38,850: INFO/MainProcess] Task ai.classify_job[e7ca50e3-e88d-4f97-adb5-b264f8b55dff] received
+worker-1  | [2026-11-04 02:02:38,856: INFO/MainProcess] Task ai.classify_job[e7ca50e3-e88d-4f97-adb5-b264f8b55dff] succeeded in 0.0051758410008915234s: {'job_id': 12, 'status': 'done'}
+worker-1  | [2026-11-04 02:02:51,730: INFO/MainProcess] Task ai.classify_job[f95bba21-8723-476f-af6f-8f8346c5b6c7] received
+worker-1  | [2026-11-04 02:02:51,735: INFO/MainProcess] Task ai.classify_job[f95bba21-8723-476f-af6f-8f8346c5b6c7] succeeded in 0.00484797500030254s: {'job_id': 13, 'status': 'done'}
+worker-1  | [2026-11-04 02:18:26,617: INFO/MainProcess] Task ai.classify_job[5a2ac12c-98f8-473d-bf32-7397d9f79462] received
+worker-1  | [2026-11-04 02:18:28,910: WARNING/MainProcess] Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+worker-1  | [2026-11-04 02:18:28,911: WARNING/MainProcess] Device set to use cpu
+worker-1  | [2026-11-04 02:18:28,949: INFO/MainProcess] Task ai.classify_job[5a2ac12c-98f8-473d-bf32-7397d9f79462] succeeded in 2.3339150199999494s: {'job_id': 14, 'status': 'done'}
+worker-1  | [2026-11-04 02:18:29,250: INFO/MainProcess] Task ai.classify_job[49932fe6-b964-4af5-99ba-aff6b20ea402] received
+worker-1  | [2026-11-04 02:18:29,277: INFO/MainProcess] Task ai.classify_job[49932fe6-b964-4af5-99ba-aff6b20ea402] succeeded in 0.02642655699946772s: {'job_id': 15, 'status': 'done'}
+worker-1  | [2026-11-04 02:18:29,563: INFO/MainProcess] Task ai.classify_job[8afe7633-87bf-40ac-98e3-16e0613611cf] received
+worker-1  | [2026-11-04 02:18:29,592: INFO/MainProcess] Task ai.classify_job[8afe7633-87bf-40ac-98e3-16e0613611cf] succeeded in 0.02865336099966953s: {'job_id': 16, 'status': 'done'}
+worker-1  | [2026-11-04 02:18:29,875: INFO/MainProcess] Task ai.classify_job[31cc01c9-036a-4e83-8c40-9f450eab45d8] received
+worker-1  | [2026-11-04 02:18:29,901: INFO/MainProcess] Task ai.classify_job[31cc01c9-036a-4e83-8c40-9f450eab45d8] succeeded in 0.025658697000835673s: {'job_id': 17, 'status': 'done'}
+worker-1  | [2026-11-04 02:18:30,199: INFO/MainProcess] Task ai.classify_job[61bd21c1-009f-485e-ad0c-06b07ac1a026] received
+worker-1  | [2026-11-04 02:18:30,226: INFO/MainProcess] Task ai.classify_job[61bd21c1-009f-485e-ad0c-06b07ac1a026] succeeded in 0.02678521500001807s: {'job_id': 18, 'status': 'done'}
+worker-1  | [2026-11-04 02:18:30,509: INFO/MainProcess] Task ai.classify_job[ac06f852-7bf6-4c3f-9c89-3874222e7a25] received
+worker-1  | [2026-11-04 02:18:30,542: INFO/MainProcess] Task ai.classify_job[ac06f852-7bf6-4c3f-9c89-3874222e7a25] succeeded in 0.03290743300021859s: {'job_id': 19, 'status': 'done'}
+worker-1  | [2026-11-04 02:18:30,579: INFO/MainProcess] Task ai.classify_job[10c90a7c-2273-4f46-8296-3af9356376d8] received
+worker-1  | [2026-11-04 02:18:30,589: INFO/MainProcess] Task ai.classify_job[10c90a7c-2273-4f46-8296-3af9356376d8] succeeded in 0.01000609800030361s: {'job_id': 20, 'status': 'done'}
+web-1     | INFO:     127.0.0.1:38182 - "GET /health HTTP/1.1" 200 OK
+web-1     | INFO:     127.0.0.1:34254 - "GET /health HTTP/1.1" 200 OK
+web-1     | INFO:     127.0.0.1:43414 - "GET /health HTTP/1.1" 200 OK
+web-1     | INFO:     127.0.0.1:34438 - "GET /health HTTP/1.1" 200 OK
+web-1     | INFO:     127.0.0.1:41648 - "GET /health HTTP/1.1" 200 OK
+web-1     | INFO:     127.0.0.1:53038 - "GET /health HTTP/1.1" 200 OK
+web-1     | INFO:     127.0.0.1:43566 - "GET /health HTTP/1.1" 200 OK
+web-1     | INFO:     127.0.0.1:47714 - "GET /health HTTP/1.1" 200 OK
+web-1     | INFO:     127.0.0.1:34018 - "GET /health HTTP/1.1" 200 OK
+web-1     | INFO:     172.19.0.1:45356 - "GET /health HTTP/1.1" 200 OK
+web-1     | INFO:     172.19.0.1:45358 - "POST /api/sync/classify/ HTTP/1.1" 200 OK
+web-1     | INFO:     172.19.0.1:45374 - "POST /api/async/classify/ HTTP/1.1" 202 Accepted
+web-1     | INFO:     172.19.0.1:45386 - "GET /api/async/jobs/14/ HTTP/1.1" 200 OK
+web-1     | INFO:     172.19.0.1:45390 - "GET /api/async/jobs/14/ HTTP/1.1" 200 OK
+web-1     | INFO:     172.19.0.1:45402 - "GET /api/async/jobs/14/ HTTP/1.1" 200 OK
+web-1     | INFO:     172.19.0.1:45412 - "GET /api/async/jobs/14/ HTTP/1.1" 200 OK
+web-1     | INFO:     172.19.0.1:45422 - "GET /api/async/jobs/14/ HTTP/1.1" 200 OK
+web-1     | INFO:     172.19.0.1:45436 - "GET /api/async/jobs/14/ HTTP/1.1" 200 OK
+web-1     | INFO:     172.19.0.1:45448 - "GET /api/async/jobs/14/ HTTP/1.1" 200 OK
+web-1     | INFO:     172.19.0.1:45462 - "GET /api/async/jobs/14/ HTTP/1.1" 200 OK
+web-1     | INFO:     172.19.0.1:45466 - "GET /api/async/jobs/14/ HTTP/1.1" 200 OK
+web-1     | INFO:     172.19.0.1:45482 - "GET /api/async/jobs/14/ HTTP/1.1" 200 OK
+web-1     | INFO:     172.19.0.1:45498 - "GET /api/async/jobs/14/ HTTP/1.1" 200 OK
+web-1     | INFO:     172.19.0.1:45502 - "GET /api/async/jobs/14/ HTTP/1.1" 200 OK
+web-1     | INFO:     172.19.0.1:45506 - "GET /api/async/jobs/14/ HTTP/1.1" 200 OK
+web-1     | INFO:     172.19.0.1:45520 - "GET /api/async/jobs/14/ HTTP/1.1" 200 OK
+web-1     | INFO:     172.19.0.1:45530 - "GET /api/async/jobs/14/ HTTP/1.1" 200 OK
+web-1     | INFO:     172.19.0.1:45532 - "GET /api/async/jobs/14/ HTTP/1.1" 200 OK
+web-1     | INFO:     172.19.0.1:45542 - "GET /api/async/jobs/14/ HTTP/1.1" 200 OK
+web-1     | INFO:     172.19.0.1:45550 - "GET /api/async/jobs/14/ HTTP/1.1" 200 OK
+web-1     | INFO:     172.19.0.1:45564 - "GET /api/async/jobs/14/ HTTP/1.1" 200 OK
+web-1     | INFO:     172.19.0.1:45572 - "GET /api/async/jobs/14/ HTTP/1.1" 200 OK
+web-1     | INFO:     172.19.0.1:45586 - "GET /api/async/jobs/14/ HTTP/1.1" 200 OK
+web-1     | INFO:     172.19.0.1:45600 - "GET /api/async/jobs/14/ HTTP/1.1" 200 OK
+web-1     | INFO:     172.19.0.1:45614 - "GET /api/async/jobs/14/ HTTP/1.1" 200 OK
+web-1     | INFO:     172.19.0.1:45622 - "GET /api/async/jobs/14/ HTTP/1.1" 200 OK
+web-1     | INFO:     172.19.0.1:45626 - "GET /api/async/jobs/14/ HTTP/1.1" 200 OK
+web-1     | INFO:     172.19.0.1:45638 - "GET /api/async/jobs/14/ HTTP/1.1" 200 OK
+web-1     | INFO:     172.19.0.1:45654 - "GET /api/async/jobs/14/ HTTP/1.1" 200 OK
+web-1     | INFO:     172.19.0.1:45670 - "GET /api/async/jobs/14/ HTTP/1.1" 200 OK
+web-1     | INFO:     172.19.0.1:45686 - "GET /api/async/jobs/14/ HTTP/1.1" 200 OK
+web-1     | INFO:     172.19.0.1:45688 - "GET /api/async/jobs/14/ HTTP/1.1" 200 OK
+web-1     | INFO:     172.19.0.1:45704 - "GET /api/async/jobs/14/ HTTP/1.1" 200 OK
+web-1     | INFO:     172.19.0.1:45708 - "GET /api/async/jobs/14/ HTTP/1.1" 200 OK
+web-1     | INFO:     172.19.0.1:45718 - "GET /api/async/jobs/14/ HTTP/1.1" 200 OK
+web-1     | INFO:     172.19.0.1:45720 - "GET /api/async/jobs/14/ HTTP/1.1" 200 OK
+web-1     | INFO:     172.19.0.1:45724 - "GET /api/async/jobs/14/ HTTP/1.1" 200 OK
+web-1     | INFO:     172.19.0.1:45730 - "GET /api/async/jobs/14/ HTTP/1.1" 200 OK
+web-1     | INFO:     172.19.0.1:45734 - "GET /api/async/jobs/14/ HTTP/1.1" 200 OK
+web-1     | INFO:     172.19.0.1:45742 - "GET /api/async/jobs/14/ HTTP/1.1" 200 OK
+web-1     | INFO:     172.19.0.1:45752 - "GET /api/async/jobs/14/ HTTP/1.1" 200 OK
+web-1     | INFO:     172.19.0.1:45768 - "GET /api/async/jobs/14/ HTTP/1.1" 200 OK
+web-1     | INFO:     172.19.0.1:45770 - "GET /api/async/jobs/14/ HTTP/1.1" 200 OK
+web-1     | INFO:     172.19.0.1:45782 - "GET /api/async/jobs/14/ HTTP/1.1" 200 OK
+web-1     | INFO:     172.19.0.1:45790 - "GET /api/async/jobs/14/ HTTP/1.1" 200 OK
+web-1     | INFO:     172.19.0.1:45796 - "GET /api/async/jobs/14/ HTTP/1.1" 200 OK
+web-1     | INFO:     172.19.0.1:45810 - "GET /api/async/jobs/14/ HTTP/1.1" 200 OK
+web-1     | INFO:     172.19.0.1:45822 - "POST /api/sync/classify/ HTTP/1.1" 200 OK
+web-1     | INFO:     172.19.0.1:45832 - "POST /api/async/classify/ HTTP/1.1" 202 Accepted
+web-1     | INFO:     172.19.0.1:45844 - "GET /api/async/jobs/15/ HTTP/1.1" 200 OK
+web-1     | INFO:     172.19.0.1:45846 - "GET /api/async/jobs/15/ HTTP/1.1" 200 OK
+web-1     | INFO:     172.19.0.1:45856 - "POST /api/sync/classify/ HTTP/1.1" 200 OK
+web-1     | INFO:     172.19.0.1:45872 - "POST /api/async/classify/ HTTP/1.1" 202 Accepted
+web-1     | INFO:     172.19.0.1:45878 - "GET /api/async/jobs/16/ HTTP/1.1" 200 OK
+web-1     | INFO:     172.19.0.1:45892 - "GET /api/async/jobs/16/ HTTP/1.1" 200 OK
+web-1     | INFO:     172.19.0.1:38932 - "POST /api/sync/classify/ HTTP/1.1" 200 OK
+web-1     | INFO:     172.19.0.1:38934 - "POST /api/async/classify/ HTTP/1.1" 202 Accepted
+web-1     | INFO:     172.19.0.1:38942 - "GET /api/async/jobs/17/ HTTP/1.1" 200 OK
+web-1     | INFO:     172.19.0.1:38958 - "GET /api/async/jobs/17/ HTTP/1.1" 200 OK
+web-1     | INFO:     172.19.0.1:38972 - "POST /api/sync/classify/ HTTP/1.1" 200 OK
+web-1     | INFO:     172.19.0.1:38988 - "POST /api/async/classify/ HTTP/1.1" 202 Accepted
+web-1     | INFO:     172.19.0.1:39002 - "GET /api/async/jobs/18/ HTTP/1.1" 200 OK
+web-1     | INFO:     172.19.0.1:39016 - "GET /api/async/jobs/18/ HTTP/1.1" 200 OK
+web-1     | INFO:     172.19.0.1:39024 - "POST /api/sync/classify/ HTTP/1.1" 200 OK
+web-1     | INFO:     172.19.0.1:39036 - "POST /api/async/classify/ HTTP/1.1" 202 Accepted
+web-1     | INFO:     172.19.0.1:39052 - "GET /api/async/jobs/19/ HTTP/1.1" 200 OK
+web-1     | INFO:     172.19.0.1:39058 - "GET /api/async/jobs/19/ HTTP/1.1" 200 OK
+web-1     | INFO:     172.19.0.1:39060 - "POST /api/async/classify/ HTTP/1.1" 202 Accepted
+web-1     | INFO:     172.19.0.1:39062 - "GET /api/async/jobs/20/ HTTP/1.1" 200 OK
+web-1     | INFO:     172.19.0.1:39066 - "GET /api/async/jobs/20/ HTTP/1.1" 200 OK

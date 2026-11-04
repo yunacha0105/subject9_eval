@@ -1,0 +1,6 @@
+run,image,true_label,sync_http_ms,sync_inference_ms,sync_cache_hit,async_accept_ms,async_total_observed_ms,async_inference_ms,async_cache_hit,async_job_id,async_queries,sync_pred,async_pred
+1,dataset/test/angular_leaf_spot/angular_leaf_spot_test.0.jpg,angular_leaf_spot,22.803,17.88,False,9.566,65.874,17.35,False,15,2,angular_leaf_spot,angular_leaf_spot
+2,dataset/test/bean_rust/bean_rust_test.0.jpg,bean_rust,22.931,18.59,False,7.595,62.834,20.28,False,16,2,bean_rust,bean_rust
+3,dataset/test/healthy/healthy_test.1.jpg,healthy,20.624,16.2,False,7.429,62.997,17.8,False,17,2,healthy,healthy
+4,dataset/test/angular_leaf_spot/angular_leaf_spot_test.1.jpg,angular_leaf_spot,22.499,17.5,False,7.227,62.572,19.11,False,18,2,angular_leaf_spot,angular_leaf_spot
+5,dataset/test/bean_rust/bean_rust_test.1.jpg,bean_rust,21.584,17.27,False,7.312,64.74,22.31,False,19,2,bean_rust,bean_rust

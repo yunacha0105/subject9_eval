@@ -1,0 +1,23 @@
+id | status |         model_id         |    top1_label     | cache_hit | inference_ms 
+----+--------+--------------------------+-------------------+-----------+--------------
+ 20 | done   | artifacts/beans_resnet18 | angular_leaf_spot | t         |             
+ 19 | done   | artifacts/beans_resnet18 | bean_rust         | f         |        22.31
+ 18 | done   | artifacts/beans_resnet18 | angular_leaf_spot | f         |        19.11
+ 17 | done   | artifacts/beans_resnet18 | healthy           | f         |         17.8
+ 16 | done   | artifacts/beans_resnet18 | bean_rust         | f         |        20.28
+ 15 | done   | artifacts/beans_resnet18 | angular_leaf_spot | f         |        17.35
+ 14 | done   | artifacts/beans_resnet18 | healthy           | f         |      2314.98
+ 13 | done   | artifacts/beans_resnet18 | healthy           | t         |             
+ 12 | done   | artifacts/beans_resnet18 | healthy           | t         |             
+ 11 | done   | artifacts/beans_resnet18 | healthy           | t         |             
+ 10 | done   | artifacts/beans_resnet18 | healthy           | t         |             
+  9 | done   | artifacts/beans_resnet18 | healthy           | t         |             
+  8 | done   | artifacts/beans_resnet18 | healthy           | t         |             
+  7 | done   | artifacts/beans_resnet18 | healthy           | t         |             
+  6 | done   | artifacts/beans_resnet18 | healthy           | t         |             
+  5 | done   | artifacts/beans_resnet18 | healthy           | t         |             
+  4 | done   | artifacts/beans_resnet18 | healthy           | t         |             
+  3 | done   | artifacts/beans_resnet18 | healthy           | t         |             
+  2 | done   | artifacts/beans_resnet18 | healthy           | t         |             
+  1 | done   | artifacts/beans_resnet18 | healthy           | t         |             
+(20 rows)
